@@ -1,0 +1,18 @@
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Trained models
+results/*.pkl
+results/*.joblib
+results/*.h5
+
+
+# Processed NumPy datasets
+data/processed/*.npy
+data/processed/*.npz
+data/processed/*.pkl
+*.pkl
+*.npz
+*.npy

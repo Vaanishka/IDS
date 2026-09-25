@@ -1,0 +1,7 @@
+best_params,{'n_estimators': 200, 'min_samples_leaf': 1, 'max_features': 'sqrt', 'max_depth': None, 'class_weight': None}
+accuracy,0.8967326523745159
+precision,0.988958655332303
+recall,0.8578527077869299
+f1,0.918752047240208
+train_time,5.813507795333862
+test_time,0.5188412666320801

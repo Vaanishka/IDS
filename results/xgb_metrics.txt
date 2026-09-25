@@ -1,0 +1,7 @@
+best_params,{'subsample': 1.0, 'scale_pos_weight': 0.75, 'n_estimators': 300, 'max_depth': 7, 'learning_rate': 0.1, 'colsample_bytree': 0.85}
+accuracy,0.8945312277219818
+precision,0.9904485857681983
+recall,0.8532692033752022
+f1,0.9167555693598556
+train_time,2.088068962097168
+test_time,0.24664855003356934
