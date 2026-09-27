@@ -20,7 +20,8 @@ param_dist = {
 }
 
 base = SVC(random_state=42)
-search = RandomizedSearchCV(base, param_dist, n_iter=8, cv=3, scoring="f1", random_state=42, n_jobs=-1, verbose=1)
+search = RandomizedSearchCV(base, param_dist, n_iter=8, cv
+=3, scoring="f1", random_state=42, n_jobs=-1, verbose=1)
 
 start = time.time()
 search.fit(X_search, y_search)
